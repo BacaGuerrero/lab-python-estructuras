@@ -1,7 +1,3 @@
-"# lab-python-estructuras" 
-
-#Ejercicio 1
-
 def suma_matrices(a, b):
     return [[a[i][j] + b[i][j] for j in range(3)] for i in range(3)]
 
